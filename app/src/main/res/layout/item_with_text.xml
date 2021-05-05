@@ -20,7 +20,7 @@
         android:scaleType="centerCrop"
         app:shapeAppearanceOverlay="@style/ShapeAppearanceOverlay.App.CornerSize10Percent"
         tools:background="@color/white"
-        tools:src="@drawable/ic_avatar" />
+        tools:src="@drawable/ic_avatar"/>
 
     <TextView
         android:id="@+id/description"

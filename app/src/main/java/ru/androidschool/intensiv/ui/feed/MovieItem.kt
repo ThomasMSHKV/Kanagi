@@ -19,7 +19,11 @@ class MovieItem(
         viewHolder.movie_rating.rating = content.rating
         viewHolder.content.setOnClickListener {
             onClick.invoke(content)
+
+
         }
+
+
 
         // TODO Получать из модели
         Picasso.get()
