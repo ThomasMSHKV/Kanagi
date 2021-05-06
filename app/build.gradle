@@ -43,6 +43,7 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlinVersion"
     implementation "androidx.appcompat:appcompat:$supportLibVersion"
@@ -69,6 +70,7 @@ dependencies {
     implementation "com.squareup.picasso:picasso:$rootProject.picassoVersion"
     implementation "jp.wasabeef:picasso-transformations:$rootProject.picassoTransformation"
 
+    //RecyclerView
     implementation "androidx.recyclerview:recyclerview:$rootProject.recyclerViewVersion"
 
     // Groupie
