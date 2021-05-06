@@ -9,7 +9,7 @@
 
     <com.google.android.material.imageview.ShapeableImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="320dp"
         android:scaleType="fitXY"
         app:shapeAppearance="@style/circleImageViewForInfoFragment"
         android:src="@drawable/ic_avatar" />
@@ -25,7 +25,7 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="320dp"
         android:background="@color/blueDark"
         android:orientation="vertical">
 
