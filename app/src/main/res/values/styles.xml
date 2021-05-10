@@ -8,11 +8,6 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="circleImageViewForInfoFragment" parent="">
-        <item name="cornerSizeBottomRight">rounded</item>
-        <item name="cornerSizeBottomLeft">rounded</item>
-        <item name="cornerSize">10%</item>
-    </style>
 
     <style name="AppTheme.Title.Collapsed" parent="android:TextAppearance">
         <item name="android:textSize">20sp</item>
