@@ -26,7 +26,7 @@ data class Movie(
 
     @IgnoredOnParcel
     val poster: String
-            get() = "${BuildConfig.IMAGE_URL}$posterPath"
+            get() = "${ru.androidschool.intensiv.BuildConfig.IMAGE_URL}$posterPath"
 
     @IgnoredOnParcel
     val rating: Float

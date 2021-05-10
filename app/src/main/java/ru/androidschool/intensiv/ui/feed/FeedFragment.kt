@@ -18,14 +18,24 @@ import kotlinx.android.synthetic.main.search_toolbar.view.*
 import ru.androidschool.intensiv.R
 import ru.androidschool.intensiv.data.MockRepository
 import ru.androidschool.intensiv.data.Movie
+import ru.androidschool.intensiv.network.MovieApiClient
 import ru.androidschool.intensiv.ui.afterTextChanged
 import timber.log.Timber
 
+private const val TAG = "Fragment"
 class FeedFragment : Fragment() {
+
 
     private val adapter by lazy {
         GroupAdapter<GroupieViewHolder>()
+
     }
+    private var playingMoviesList: List<Movie> = listOf()
+    private var popularMoviesList: List<Movie> = listOf()
+    private var upcomingMovie: List<Movie> = listOf()
+    
+
+
 
     private val options = navOptions {
         anim {
